@@ -1,21 +1,9 @@
-# Supercell Coding Test
-Hi! This is the base code structure for the Supercell coding test.
-The code below is a very basic and intensionally broken version of a generic survivor game.
+# Supercell Challenge 2024
 
-## Disclaimer
+This is my submission for Hive's coding challenge with Supercell. We were given a basic survival game to be improved and expanded upon. Through this project I vastly improved my fluency with C++ and became very familiar with the SFML library.
 
-We strongly recommend that you:
-- Place assets in the `/assets` folder and use the `ResourceManager` class to get file paths.
-    - Example usage: `m_font.loadFromFile(ResourceManager::getFilePath("Lavigne.ttf"))`
-    - Look in `/src/Game.cpp` for examples of loading fonts and textures.
-- Use CMake to build your project and do not modify the CMakeLists.txt file.
-- Test on different platforms to assure your submission builds and functions the same.
-
-We will build your project with the build steps outlined below. If your submission produces any build errors we will most likely end the evaluation there.
 
 ## Prerequisites
-
-NOTE: Hive computers (should) have these dependencies installed already.
 
 You must have [CMake](https://cmake.org/) version 3.22.1 or later installed to build this project.
 
